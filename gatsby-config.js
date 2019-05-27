@@ -22,18 +22,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-favicon',
-      options: {
-        logo: siteConfig.logo,
-        appName: siteConfig.shortName,
-        appDescription: siteConfig.description,
-        dir: 'auto',
-        lang: 'en-US',
-        background: siteConfig.themeColor,
-        theme_color: siteConfig.themeColor,
-      },
-    },
-    {
       resolve: `gatsby-plugin-react-svg`,
       options: {
         rule: {
