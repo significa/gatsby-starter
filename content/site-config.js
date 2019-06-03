@@ -14,7 +14,7 @@ module.exports = {
     'digital',
     'product',
   ],
-  siteUrl: 'http:/google.com',
+  siteUrl: '{{= appUrl }}',
   themeColor: '#000',
   backgroundColor: '#fff',
   pathPrefix: null,
